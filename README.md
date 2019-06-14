@@ -7,30 +7,30 @@ The purpose is to investigate which factors influences on a person missing an ap
 
 **1 & 2. BI/Data understanding**
 
-    - Does the waiting time until the appointment matter?
+   - Does the waiting time until the appointment matter?
     
-    - Does age matter?
+   - Does age matter?
     
-    - Does miss an appointment before influences on missing again? 
+   - Does miss an appointment before influences on missing again? 
     
 **3. Data preparation**
 
-    - Check for missing data
+   - Check for missing data
     
-    - Clean data and engineer new features
+   - Clean data and engineer new features
     
-    - One Hot Encode categorical variables
+   - One Hot Encode categorical variables
 
 **4. Model Data**
 
-    To solve the class imbalance of the dataset 2 approaches are investigated: 
+   To solve the class imbalance of the dataset 2 approaches are investigated: 
     
-        - use whole dataset to build a classifier
+   - use whole dataset to build a classifier
         
-        - perform downsampling and upweight before building a classifier (based on https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
+   - perform downsampling and upweight before building a classifier (based on https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
 
 **5. Results**
 
-    - Choose best classifier based on a appropriate chosen metric
+   - Choose best classifier based on a appropriate chosen metric
 
 
